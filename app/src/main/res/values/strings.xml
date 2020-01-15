@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Eng_Ger_dictionary</string>
+    <string name="label">Welcome to English-German application"</string>string>
+
+
+    <string name="CheckBox1">Noun</string>
+    <string name="CheckBox2">Verb</string>
+    <string name="CheckBox3">Preposition</string>
+    <string name="CheckBox4">Cardinal number</string>
+    <string name="CheckBox5">Adverb</string>
+    <string name="CheckBox6">Adjective</string>
+
+
+   <string name="german_label">German</string>
+    <string name="speech_label">Part of speech</string>
+    <string name="english_label">English</string>
+
+
+    <string name="german_word">German Word</string>
+    <string name="english_word">English Word</string>
+
+
+
+    <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
+    <string name="clear_button">Clear</string>
+    <string name="add_button">Add</string>
+    <string name="remove_button">Remove</string>
+
+
+    <string name="title_activity_createWordList">Create words list</string>
+    <string name="alertExitDialog">"Do you want to exit?"</string>
+    <string name="action_search">Search</string>
+
+    <string name="error_message">No empty</string>
+
+
+
+    <string name="setting_choice1">Create the word list</string>
+    <string name="setting_choice2">German to English nouns</string>
+    <string name="setting_choice3">German to English verbs</string>
+    <string name="setting_choice4">German to English prepositions</string>
+    <string name="setting_choice5">German to English adjectives</string>
+    <string name="setting_choice6">German to English adverbs</string>
+    <string name="setting_choice7">German to English cardinal numbers</string>
+    <string name="setting_choice8">Search for a word</string>
+    <string name="setting_choice9">Quit</string>
+
+</resources>

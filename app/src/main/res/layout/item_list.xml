@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                style="?android:listSeparatorTextViewStyle" >
+
+    <TextView
+        android:id="@+id/list_item_german_title_text_view"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="German"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:layout_width="120sp" />
+
+    <TextView
+        android:id="@+id/list_item_partOfSpeech_title_text_view"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/list_item_german_title_text_view"
+        tools:text="PartOfSpeech"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:layout_width="130sp" />
+
+    <TextView
+        android:id="@+id/list_item_english_title_text_view"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/list_item_partOfSpeech_title_text_view"
+        tools:text="English"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:layout_width="100sp" />
+
+</RelativeLayout>

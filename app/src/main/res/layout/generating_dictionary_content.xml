@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+        <CheckBox android:id="@+id/checkbox_preposition"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/CheckBox3"
+                  android:onClick="onCheckboxClicked"
+                  android:layout_marginStart="28dp"
+                  android:layout_below="@+id/checkbox_verb"
+                  android:layout_toEndOf="@+id/checkbox_adjective" />
+
+
+        <CheckBox android:id="@+id/checkbox_adjective"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/checkbox_verb"
+                  android:text="@string/CheckBox6"
+                  android:onClick="onCheckboxClicked"/>
+
+
+        <CheckBox android:id="@+id/checkbox_adverb"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/CheckBox5"
+                  android:onClick="onCheckboxClicked"
+                  android:layout_below="@+id/checkbox_adjective"/>
+
+
+
+        <CheckBox android:id="@+id/checkbox_cardinalNumber"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/CheckBox4"
+                  android:onClick="onCheckboxClicked"
+                  android:layout_below="@+id/checkbox_preposition"
+                  android:layout_alignStart="@+id/checkbox_preposition" />
+
+
+        <CheckBox android:id="@+id/checkbox_noun"
+                  android:layout_marginTop="32dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/CheckBox1"
+                  android:onClick="onCheckboxClicked"
+                  android:layout_below="@+id/inputGermanEditText"
+                  android:layout_alignParentStart="true"/>
+
+        <CheckBox android:id="@+id/checkbox_verb"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/CheckBox2"
+                  android:onClick="onCheckboxClicked"
+                  android:layout_alignBaseline="@+id/checkbox_noun"
+                  android:layout_alignBottom="@+id/checkbox_noun"
+                  android:layout_alignStart="@+id/checkbox_preposition"/>
+
+        <EditText
+            android:id="@+id/inputGermanEditText"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ems="8"
+            android:hint="@string/german_word"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/inputEnglishEditText">
+        </EditText>
+
+        <EditText
+            android:id="@+id/inputEnglishEditText"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ems="8"
+            android:hint="@string/english_word"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:layout_below="@+id/checkbox_adverb"
+            android:layout_centerHorizontal="true">
+
+        </EditText>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:text="@string/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_button"/>
+        <Button
+            android:text="@string/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_button"
+            />
+        <Button
+            android:text="@string/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_button"
+             />
+
+        <Button
+            android:text="@string/remove_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remove_button"
+
+            />
+
+
+        <Button
+            android:text="@string/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear_button"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

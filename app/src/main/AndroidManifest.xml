@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="learn2develop.net.english_german_dictionary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DictionaryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="learn2develop.net.english_german_dictionary.Generate_Word_Resources"
+            android:label="@string/title_activity_createWordList"
+            >
+        </activity>
+        <activity
+            android:name=".CrimeListActivity"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".DictionaryActivity">
+        </activity>
+
+        <activity
+            android:name=".CrimePagerActivity"
+            android:theme="@style/AppTheme"
+            android:label="@string/app_name"
+            android:parentActivityName=".CrimeListActivity">
+        </activity>
+
+    </application>
+
+</manifest>

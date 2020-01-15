@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/option1"
+          android:title="@string/setting_choice1"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+
+    <item android:id="@+id/option2"
+          android:title="@string/setting_choice2"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/option3"
+          android:title="@string/setting_choice3"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/option4"
+          android:title="@string/setting_choice4"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/option5"
+          android:title="@string/setting_choice5"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/option6"
+          android:title="@string/setting_choice6"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+
+    <item android:id="@+id/option7"
+          android:title="@string/setting_choice7"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+
+    <item android:id="@+id/option8"
+          android:title="@string/setting_choice8"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/option9"
+          android:title="@string/setting_choice9"
+          android:orderInCategory="2"
+          app:showAsAction="never" />
+
+</menu>
