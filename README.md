@@ -1,6 +1,6 @@
 # English-German-dictionary
 This project is about creating English-German Adnroid app using Android Studio and Android emulator.
-Below is some details how this app works. You can also view project image in German-English_Dictionary_Presentation.pptx
+Below is some details how this app works. You can also view project image in English_German_Dictionary_Presentation.pptx
 
 Homepage of English-German dictionary app.
 
